@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Syne+Mono&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: #000000;
+  max-height: 60px;
+}
+
+.navbar-link {
+  color: antiquewhite;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar-center {
+  display: flex;
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.navbar-right .navbar-link,
+.navbar-center .navbar-link {
+  margin: 0 1em;
+}

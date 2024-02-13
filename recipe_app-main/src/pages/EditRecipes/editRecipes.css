@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Syne+Mono&display=swap');
+
+
+.recipe-container{
+
+    width: 1500px;
+    height: 600px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 40px 40px;
+}
+.RecipeBody{
+    background-image: url("../../images/pancake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+
+.recipeBox{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    gap: 6rem;
+    margin: auto;
+
+}
+
+.IngredientsAndQuantity {
+    flex-direction: row;
+    display: flex;
+    gap: 3rem;
+}
+
+.CreateRecipe{
+    display: flex;
+    flex-direction: column;
+}
+
+.CreateRecipe h1{
+    color: white;
+    text-shadow: 0 5px black;
+    font-family: 'Lobster', sans-serif;
+    font-size: 40px;
+
+}
+
+.CreateRecipe h3{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 0 0 7px black;
+
+
+}
+
+.addReset {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+.InputBox{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border-radius: 40px;
+    /*border: none;*/
+    font-size: 16px;
+    color: #c5bf5e;
+    text-align: center;
+    text-shadow: 0 2px black;
+
+
+}
+
+.InputBox input::placeholder{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.Ingredients .button1{
+    width: 70%;
+    height: 45px;
+    background: white;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*.StepStep {*/
+/*    flex-direction: row;*/
+/*    display: flex;*/
+/*    gap: 2rem;*/
+/*}*/
+
+.Step .button1{
+    width: 70%;
+    height: 45px;
+    background: white;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-container .btn{
+    width: 70%;
+    height: 45px;
+    background: white;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.DeleteRecipe{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+.EraseRecipe h1{
+    color: white;
+    text-shadow: 0 5px black;
+    font-family: 'Lobster', sans-serif;
+    font-size: 40px;
+}

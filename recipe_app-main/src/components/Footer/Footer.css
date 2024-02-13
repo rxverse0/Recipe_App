@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Syne+Mono&display=swap');
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  background-color: black;
+  max-height: 120px;
+}
+
+.footer-link {
+  color: antiquewhite;
+  text-decoration: none;
+  margin: 0 1em;
+  font-family: 'Poppins', sans-serif;
+}
